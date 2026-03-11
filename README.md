@@ -6,7 +6,7 @@ A binary classification project that predicts whether a customer will file a car
 
 - **Task:** Binary classification (claim vs. no claim)
 - **Dataset:** [Car Insurance Data](https://www.kaggle.com/datasets/sagnik1511/car-insurance-data) from Kaggle
-- **Best Model:** Random Forest (test accuracy ~0.84)
+- **Best Model:** Random Forest (test accuracy ~0.85)
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ car_insurance_crisp_dm/
 
 ## Dataset
 
-The dataset includes 18 features such as:
+The dataset includes 17 features (excluding ID and target) such as:
 
 | Feature | Description |
 |---------|-------------|
@@ -57,7 +57,7 @@ The dataset includes 18 features such as:
 
 ## Key Results
 
-- **Random Forest:** Test accuracy ~0.84, precision/recall ~0.88 (no-claim) and ~0.74 (claim)
+- **Random Forest:** Test accuracy ~0.85, precision/recall ~0.90/0.88 (no-claim) and ~0.74/0.78 (claim)
 - **Feature engineering:** PCA (3 components) + collinearity filter keeps accuracy at 0.84 with fewer features
 - **Neural networks:** ~0.83 test accuracy
 
